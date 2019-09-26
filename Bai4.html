@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính chu vi hình tròn</title>
+</head>
+<body>
+<script>
+    function getPeripheral(a) {
+        return 2 * 3.14 * a;
+    }
+    let inputRadius;
+    inputRadius = prompt("Nhập giá trị bán kính ");
+    radius = parseFloat(inputRadius);
+    if (radius < 0){
+        alert("Nhập lại bán kính ");
+    }
+    else alert("Chu vi hình tròn là " + getPeripheral(inputRadius));
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính diện tích hình tròn</title>
+</head>
+<body>
+<script>
+    function getCircle_area(a) {
+        return a*a*3.14;
+    }
+    let inputRadius;
+    inputRadius = prompt("Nhập giá trị bán kính");
+    let radius = parseFloat(inputRadius);
+    if (radius < 0){
+        alert("Nhập lại giá trị bán kính");
+    }
+    else alert("Diện tích hình tròn là " + getCircle_area(radius));
+</script>
+</body>
+</html>
